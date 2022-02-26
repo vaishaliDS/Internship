@@ -1,0 +1,459 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "e7542a86",
+   "metadata": {},
+   "source": [
+    "# Python-Worksheet 1"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "8853512f",
+   "metadata": {},
+   "source": [
+    "1. Which of the following operators is used to calculate remainder in a division?\n",
+    "A) # B) &\n",
+    "C) % D) $\n",
+    "\n",
+    "Ans : c) %"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "f194b09b",
+   "metadata": {},
+   "source": [
+    "2. In python 2//3 is equal to?\n",
+    "A) 0.666 B) 0\n",
+    "C) 1 D) 0.67\n",
+    "\n",
+    "Ans: B) 0\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "fe20a121",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "2//3"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "3919a799",
+   "metadata": {},
+   "source": [
+    "3. In python, 6<<2 is equal to?\n",
+    "A) 36 B) 10\n",
+    "C) 24 D) 45\n",
+    "\n",
+    "Ans: c) 24"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "672b82d2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "24"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "6<<2"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "48d6bd1c",
+   "metadata": {},
+   "source": [
+    "4. In python, 6&2 will give which of the following as output?\n",
+    "A) 2 B) True\n",
+    "C) False D) 0\n",
+    "\n",
+    "Ans: A) 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "2e134c83",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "6&2"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "1192fccb",
+   "metadata": {},
+   "source": [
+    "5. In python, 6|2 will give which of the following as output?\n",
+    "A) 2 B) 4\n",
+    "C) 0 D) 6\n",
+    "\n",
+    "Ans : D)6"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "0f00b541",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "6"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "6|2"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "7bec82ad",
+   "metadata": {},
+   "source": [
+    "6. What does the finally keyword denotes in python?\n",
+    "A) It is used to mark the end of the code\n",
+    "B) It encloses the lines of code which will be executed if any error occurs while executing the lines of code in \n",
+    "the try block.\n",
+    "C) the finally block will be executed no matter if the try block raises an error or not.\n",
+    "D) None of the above\n",
+    "\n",
+    "\n",
+    "Ans : C) the finally block will be executed no matter if the try block raises an error or not."
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "7f74cb8f",
+   "metadata": {},
+   "source": [
+    "7. What does raise keyword is used for in python?\n",
+    "A) It is used to raise an exception. B) It is used to define lambda function\n",
+    "C) it's not a keyword in python. D) None of the above\n",
+    "\n",
+    "Ans: A)It is used to raise an exception."
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "b73fe56b",
+   "metadata": {},
+   "source": [
+    "8. Which of the following is a common use case of yield keyword in python?\n",
+    "A) in defining an iterator B) while defining a lambda function\n",
+    "C) in defining a generator D) in for loop\n",
+    "\n",
+    "Ans: C) in defining a generator"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6eb69d9b",
+   "metadata": {},
+   "source": [
+    "Q9 and Q10 have multiple correct answers. Choose all the correct options to answer your question"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "bf58a8b3",
+   "metadata": {},
+   "source": [
+    "9. Which of the following are the valid variable names?\n",
+    "A) _abc B) 1abc\n",
+    "C) abc2 D) None of the abov\n",
+    "\n",
+    "Ans : A) _abc\n",
+    "      C)abc2"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "7a8a044a",
+   "metadata": {},
+   "source": [
+    "10. Which of the following are the keywords in python?\n",
+    "A) yield B) raise\n",
+    "C) look-in D) all of the above\n",
+    "\n",
+    "\n",
+    "Ans: A) yield \n",
+    "     B) raise"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "10e943bb",
+   "metadata": {},
+   "source": [
+    "Q11 to Q15 are programming questions. Answer them in Jupyter Notebook"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "4d8df7e8",
+   "metadata": {},
+   "source": [
+    "11. Write a python program to find the factorial of a number.\n",
+    "12. Write a python program to find whether a number is prime or composite.\n",
+    "13. Write a python program to check whether a given string is palindrome or not.\n",
+    "14. Write a Python program to get the third side of right-angled triangle from two given sides.\n",
+    "15. Write a python program to print the frequency of each of the characters present in a given string"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "7f1f668d",
+   "metadata": {},
+   "source": [
+    "11. Write a python program to find the factorial of a number."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "83a3d672",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter the number :4\n",
+      "Factorial of No. 4 is :  24\n"
+     ]
+    }
+   ],
+   "source": [
+    "i=int(input(\"Enter the number :\"))\n",
+    "fact=1\n",
+    "for j in range(1 ,i+1):\n",
+    "    fact=fact*j\n",
+    "print(\"Factorial of No.\",i , \"is :\" ,fact)   "
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "52dbaa59",
+   "metadata": {},
+   "source": [
+    "12. Write a python program to find whether a number is prime or composite."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "745cb0b8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter the number :11\n",
+      "Number is Prime .\n"
+     ]
+    }
+   ],
+   "source": [
+    "i=int(input(\"Enter the number :\"))\n",
+    "for j in range(2,i):\n",
+    "    if(i%j==0):\n",
+    "        print(\"Number is composite\")\n",
+    "        break;\n",
+    "else:\n",
+    "    print(\"Number is Prime .\")\n",
+    "        \n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "36ee0b54",
+   "metadata": {},
+   "source": [
+    "13. Write a python program to check whether a given string is palindrome or not."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "bc695b9b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter the string :madam\n",
+      "String is Palindrome.\n"
+     ]
+    }
+   ],
+   "source": [
+    "r=input(\"Enter the string :\")\n",
+    "rev_r =r[::-1]\n",
+    "\n",
+    "if rev_r==r:\n",
+    "    print(\"String is Palindrome.\")\n",
+    "else:\n",
+    "    print(\"String is not Palindrome.\")"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "8eedd5d4",
+   "metadata": {},
+   "source": [
+    "14. Write a Python program to get the third side of right-angled triangle from two given sides."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "760f3f2d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Base of the triangle is : 3.0\n",
+      "Altitude of the triangle is : 4.0\n",
+      "hypotenuse of the triangle is : 5.0\n",
+      "All sides are given\n"
+     ]
+    }
+   ],
+   "source": [
+    "##hypotenuse^2 = base^2 + Altitude^2\n",
+    "\n",
+    "def pythagoras_findside(hypotenuse,base,altitude):\n",
+    "    if(hypotenuse=='X'):\n",
+    "        hypotenuse= (base**2 + altitude**2)**0.5\n",
+    "        return (hypotenuse)\n",
+    "    elif(base=='X'):\n",
+    "        base= (hypotenuse**2 -altitude**2)**0.5\n",
+    "        return (base)\n",
+    "    elif(altitude=='X'):\n",
+    "        altitude= (hypotenuse**2 -base**2)**0.5\n",
+    "        return (altitude)\n",
+    "    else:\n",
+    "      return(\"All sides are given\")\n",
+    "    \n",
+    "print(\"Base of the triangle is :\", pythagoras_findside(5,'X',4))\n",
+    "print(\"Altitude of the triangle is :\",pythagoras_findside(5,3,'X'))\n",
+    "print(\"hypotenuse of the triangle is :\",pythagoras_findside('X',4,3))\n",
+    "print(pythagoras_findside(5,3,4))"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "6454f902",
+   "metadata": {},
+   "source": [
+    "15. Write a python program to print the frequency of each of the characters present in a given string"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "fd797183",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "frequency of each of the characters present in a given string is :\n",
+      "{'w': 2, 'e': 2, 'l': 2, 'c': 2, 'o': 2, 'm': 2, ' ': 2, 't': 2, 'i': 2, 'n': 2, 'd': 2, 'a': 2}\n"
+     ]
+    }
+   ],
+   "source": [
+    "string=\"welcome to india\"\n",
+    "\n",
+    "no={} #dict. to sote ch n no of occurance (key value pair)\n",
+    "for i in string:\n",
+    "   no[i]=string.count(\"i\")\n",
+    "print(\"frequency of each of the characters present in a given string is :\")\n",
+    "print(no)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "89354a97",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
